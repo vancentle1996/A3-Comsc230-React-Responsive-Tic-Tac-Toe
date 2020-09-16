@@ -11,12 +11,18 @@ code {
 }
 
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 20px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color: #4F4C52;
+  color: white;
+  background-image: url("bits.jpg");
+  margin-top: 400px;
+  margin-left: 700px; 
 }
 
 ol, ul {
-  padding-left: 30px;
+  padding-left: 13px;
+  color: #ddd;
 }
 
 .board-row:after {
@@ -30,8 +36,8 @@ ol, ul {
 }
 
 .square {
-  background: #34077D;
-  border: 1px solid #DEEBF3;
+  background: #A90C29;
+  border: 1px solid #085857;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -42,6 +48,7 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 34px;
+  color: #08F9F5;
 }
 
 .square:focus {
@@ -58,5 +65,5 @@ ol, ul {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 100px;
 }
